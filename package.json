@@ -17,18 +17,19 @@
   "peerDependencies": {
     "umi": "2.x"
   },
-  
-  "main":  "lib/index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "build":  "umi-tools build",
+    "build": "umi-tools build",
     "publish": "npm run build && npm publish"
   },
   "devDependencies": {
-    "umi-tools":  "*"
+    "umi-tools": "*"
   },
   "files": [
     "lib",
     "src"
-  ]
-  
+  ],
+  "dependencies": {
+    "umi": "^2.2.2"
+  }
 }

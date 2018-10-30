@@ -1,18 +1,18 @@
 {
-  "name": "umi-plugin-umi-plugin-vorlon",
+  "name": "umi-plugin-vorlon",
   "version": "0.0.1",
-  "description": "debug-helper",
+  "description": "inject vorlonjs to html head",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/noone/umi-plugin-umi-plugin-vorlon"
+    "url": "https://github.com/JonasGao/umi-plugin-vorlon"
   },
-  "homepage": "https://github.com/noone/umi-plugin-umi-plugin-vorlon",
+  "homepage": "https://github.com/JonasGao/umi-plugin-vorlon",
   "authors": [
     "jonas.gao <gaopinsong@live.cn>"
   ],
   "bugs": {
-    "url": "https://github.com/noone/umi-plugin-umi-plugin-vorlon/issues"
+    "url": "https://github.com/JonasGao/umi-plugin-vorlon/issues"
   },
   "peerDependencies": {
     "umi": "2.x"

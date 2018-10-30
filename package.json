@@ -1,0 +1,34 @@
+{
+  "name": "umi-plugin-umi-plugin-vorlon",
+  "version": "0.0.1",
+  "description": "debug-helper",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noone/umi-plugin-umi-plugin-vorlon"
+  },
+  "homepage": "https://github.com/noone/umi-plugin-umi-plugin-vorlon",
+  "authors": [
+    "jonas.gao <gaopinsong@live.cn>"
+  ],
+  "bugs": {
+    "url": "https://github.com/noone/umi-plugin-umi-plugin-vorlon/issues"
+  },
+  "peerDependencies": {
+    "umi": "2.x"
+  },
+  
+  "main":  "lib/index.js",
+  "scripts": {
+    "build":  "umi-tools build",
+    "publish": "npm run build && npm publish"
+  },
+  "devDependencies": {
+    "umi-tools":  "*"
+  },
+  "files": [
+    "lib",
+    "src"
+  ]
+  
+}

@@ -1,6 +1,6 @@
 {
   "name": "umi-plugin-vorlon",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "inject vorlonjs to html head",
   "license": "MIT",
   "repository": {
@@ -20,7 +20,7 @@
   "main": "lib/index.js",
   "scripts": {
     "build": "umi-tools build",
-    "publish": "npm run build && npm publish"
+    "prepublish": "npm run build"
   },
   "devDependencies": {
     "umi-tools": "*"

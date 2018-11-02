@@ -91,7 +91,7 @@ export default function (api, options = defaultOpt) {
     }
   }
 
-  api.log.pending('Inject vorlon.js src: ', src);
+  api.log.success('Inject vorlon.js src: ', src);
 
   api.addHTMLHeadScript({
     src

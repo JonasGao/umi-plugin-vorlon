@@ -1,6 +1,6 @@
 {
   "name": "umi-plugin-vorlon",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "inject vorlonjs to html head",
   "license": "MIT",
   "repository": {
